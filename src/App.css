@@ -154,3 +154,8 @@ img {
     margin-inline: var(--mb-1-5);
   }
 }
+@media screen and (max-width: 35px) {
+  .container {
+    margin-inline: var(--mb-1);
+  }
+}
