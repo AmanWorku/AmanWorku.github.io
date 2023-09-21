@@ -149,3 +149,8 @@ img {
   display: inline-flex;
   align-items: center;
 }
+@media screen and (max-width: 992px) {
+  .container {
+    margin-inline: var(--mb-1-5);
+  }
+}
