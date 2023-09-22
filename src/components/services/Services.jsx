@@ -3,8 +3,10 @@ import "./services.css"
 
 const Services = () => {
     const [toggleState, setToggleState] = useState(0);
+    const checkMessage = () => {
+        console.log("Toggle state:", toggleState);
+    }
     const toggleTab = (index) => {
-        console.log("Toggle tab called with index:", index);
         if (toggleState === index) {
             setToggleState(0);
         } else {
