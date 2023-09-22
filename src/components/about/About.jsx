@@ -16,10 +16,7 @@ const About = () => {
             <p className="about__description">Full-stack developer web developer and open-source enthusiast with a love for
 clean code and accessible design. Pair-programming and remote work
 aficionado. Fluent in multiple languages, frameworks, and technologies, and
-capable of ramping up quickly and eﬃciently. Tech-savvy professional with
-advanced training and experience in Full-stack development. Delivers above-
-average results to delight customers and drive internal enhancements. Always
-seeking new and improved strategies to achieve objectives.</p>
+capable of ramping up quickly and eﬃciently.</p>
 <a download="" href={CV} className="button button-flex"> Download Resume
 <svg
                 class="button__icon"
