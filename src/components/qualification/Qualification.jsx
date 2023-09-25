@@ -19,7 +19,7 @@ const Qualification = () => {
         
         </div>
         <div className="qualification__sections">
-            <div className="qualification__content">
+            <div className="qualification__content qualification-content-active">
                 <div className="qualification__data">
                     <div>
                         <h3 className="qualification__title">Web Design</h3>
