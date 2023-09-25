@@ -5,7 +5,7 @@ import image3 from "../../assets/testimonial3.png";
 export const Data = [
     {
         id: 1,
-        image: image2,
+        image: image1,
         title: "Harry Clinton",
         description:
         "A really good job, all aspects of the project were followed step by step and with good results.",
