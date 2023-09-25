@@ -16,7 +16,7 @@
     cursor: pointer;
 }
 
-.qualification__button:hove {
+.qualification__button:hover {
     color: var(--title-color-dark);
 }
 
