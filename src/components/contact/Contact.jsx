@@ -12,18 +12,27 @@ const Contact = () => {
 
             <div className="contact__info">
                 <div className="contact__card">
-                    <i className="bx bx contact__card-icon"></i>
+                    <i className="bx bx-mail-send contact__card-icon"></i>
                     <h3 className="contact__card-title">Email</h3>
                     <span className="contact__card-data">amanwtsegaw@gmail.com</span>
 
-                    <a href="" className="contact__button">Write me {" "}<i className="bx bx-right-arrow-alt contact __button-icon"></i></a>
+                    <a href="mailto:amanwtsegaw@gmail.com" className="contact__button">Write me {" "}<i className="bx bx-right-arrow-alt contact __button-icon"></i></a>
                 </div>
                 <div className="contact__card">
-                    <i className="bx bx contact__card-icon"></i>
+                    <i className="bx bxl-whatsapp contact__card-icon"></i>
                     <h3 className="contact__card-title">WhatsApp</h3>
                     <span className="contact__card-data">+2519 3303 9057</span>
 
-                    <a href="" className="contact__button">Write me {" "}<i className="bx bx-right-arrow-alt contact __button-icon"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=251933039057&text=Hello, more information!"
+                    className="contact_button">Write me {" "}<i className="bx bx-right-arrow-alt contact __button-icon"></i></a>
+                </div>
+                <div className="contact__card">
+                    <i className="bx bxl-linkedin contact__card-icon"></i>
+                    <h3 className="contact__card-title">LinkedIn</h3>
+                    <span className="contact__card-data">Amanuel (Aman) Worku</span>
+
+                    <a href="https://www.linkedin.com/in/aman-worku-tsegaw/"
+                    className="contact_button">Write me {" "}<i className="bx bx-right-arrow-alt contact __button-icon"></i></a>
                 </div>
             </div>
         </div>
