@@ -79,3 +79,20 @@
     background-color: var(--text-color);
     transform: translate(6px, -7px);
 }
+
+
+@media screen and (max-width: 992px) {
+    
+ }
+ 
+ @media screen and (max-width: 768px) {
+   
+ }
+ 
+ @media screen and (max-width: 576px) {
+    
+ }
+ 
+ @media screen and (max-width: 350px) {
+   
+ }
