@@ -18,6 +18,36 @@ const Qualification = () => {
             </div>
         
         </div>
+        <div className="qualification__sections">
+            <div className="qualification__content">
+                <div className="qualification__data">
+                    <div>
+                        <h3 className="qualification__title"></h3>
+                        <span className="qualification__subtitle">Debremarkos University</span>
+                        <div className="qualification__calendar">
+                            <i className="uil uil-calendar-alt"></i>2022 - Present
+                        </div>
+                    </div>
+                    <div>
+                        <div className="qualification__rounder">
+                            <div className="qualification__line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="qualification__data">
+                    <div>
+                        <h3 className="qualification__title"></h3>
+                        <span className="qualification__subtitle">Debremarkos University</span>
+                        <div className="qualification__calendar">
+                            <i className="uil uil-calendar-alt"></i>2022 - Present
+                        </div>
+                    </div>
+                    <div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
    </section>
   )
