@@ -16,7 +16,6 @@ const Qualification = () => {
                 <i className="uil uil-briefcase-alt qualification__icon">
                 </i>{" "} Experience
             </div>
-        
         </div>
         <div className="qualification__sections">
             <div className="qualification__content qualification-content-active">
