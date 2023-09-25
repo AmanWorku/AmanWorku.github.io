@@ -14,16 +14,20 @@ const Footer = () => {
             </ul>
             
             <div className="footer__social">
-                <a href="https://instagram.com/amanwtsegaw" className="home__social-icon" target='_blank'>
-                <i className='uil uil-instagram'></i>
+                <a href="https://instagram.com/amanwtsegaw" className="footer__social-link" target='_blank'>
+                <i className='bx bxl-instagram'></i>
                 </a>
-                <a href="https://github.com/" className="home__social-icon" target='_blank'>
-                <i className='uil uil-github-alt'></i>
+                <a href="https://www.facebook.com/amanuel.worku.733/" className="footer__social-link" target='_blank'>
+                <i className='bx bxl-facebook'></i>
                 </a>
-                <a href="https://linkedin.com/" className="home__social-icon" target='_blank'>
-                <i className='uil uil-linkedin'></i>
+                <a href="https://www.youtube.com/@amanuelworku9170" className="footer__social-link" target='_blank'>
+                <i className='bx bxl-youtube'></i>
                 </a>
             </div>
+
+            <span className="footer__copy">
+                &#169; Aman Worku. All rights reserved
+            </span>
         </div>
     </footer>
   )
