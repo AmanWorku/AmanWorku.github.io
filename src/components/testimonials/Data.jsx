@@ -6,15 +6,15 @@ export const Data = [
     {
         id: 1,
         image: image1,
-        title: "Harry Clinton",
+        title: "Prantosh Biswas",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Amanuel is one of the greatest among all people I've ever worked with. He understands complex matters even when outside of his direct area of expertise. For Amanuel the job is definitely the most important thing to do.",
         },
         {id: 2,
         image: image2,
-        title: "Harry Clinton",
+        title: "Salwa Ballouti",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "I have had the gladness of studying alongside Amanuel at Microverse for the past few months and I can confidently say that he is a brilliant full-stack developer. He has a strong understanding of various programming languages and technologies.",
         },
         {
         id: 1,
