@@ -19,7 +19,7 @@ export const Data = [
         {
         id: 1,
         image: image3,
-        title: "Sara Cill",
+        title: "Besufekad Alemu",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",}
+        "Amanuel has a strong educational background in Information Technology, which provides him with a solid foundation in understanding complex technical concepts. He quickly grasps new technologies and applies them effectively.",}
 ]
