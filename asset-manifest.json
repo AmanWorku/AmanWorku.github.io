@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AmanPortfolio/static/css/main.5bd2c473.css",
+    "main.js": "/AmanPortfolio/static/js/main.52ef3b04.js",
+    "static/media/testimonial1.png": "/AmanPortfolio/static/media/testimonial1.c518e198a07af104d5fb.png",
+    "static/media/testimonial2.png": "/AmanPortfolio/static/media/testimonial2.7192a4123686b4bce0a2.png",
+    "static/media/profile3.png": "/AmanPortfolio/static/media/profile3.d006204b7bb9dd1d5c8f.png",
+    "static/media/testimonial3.png": "/AmanPortfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/John-Cv.pdf": "/AmanPortfolio/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
+    "index.html": "/AmanPortfolio/index.html",
+    "main.5bd2c473.css.map": "/AmanPortfolio/static/css/main.5bd2c473.css.map",
+    "main.52ef3b04.js.map": "/AmanPortfolio/static/js/main.52ef3b04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bd2c473.css",
+    "static/js/main.52ef3b04.js"
+  ]
+}
