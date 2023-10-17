@@ -6,7 +6,7 @@ import country2 from "./../../assets/projects/country 2.png";
 // import calcImage from "./../../assets/projects/calculator.png";
 // import calcImage from "./../../assets/projects/calculator.png";
 
-const serviceData = [
+const projectData = [
     {
       id: 1,
       title: "ConcertHub",
@@ -64,5 +64,5 @@ const serviceData = [
       },
   ];
   
-  export default serviceData;
+  export default projectData;
   

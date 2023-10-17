@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import "./projects.css";
-import serviceData from './projectsData';
+import projectData from './projectsData';
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(0);
 
-  const renderedprojects = serviceData.map((service) => (
+  const renderedprojects = projectData.map((service) => (
     <div className="projects__content" key={service.id} 
     // style={{ backgroundImage: `linear-gradient(0deg, rgba(210,210,210,0.5) 0%, rgba(190,190,190,1) 100%), url(${service.image})`}}
     >
@@ -19,7 +19,7 @@ const Projects = () => {
                 <div className={toggleState === service.id ? "projects__modal active-modal" : "projects__modal"}>
                     <div className="projects__modal-content">
                         <i className="uil uil-times projects__modal-close" onClick={() => toggleTab(0)}></i>
-                        <h3 className="projects__modal-title">{service.title}</h3>
+                        <h3 className="projects__modal-title" dangerouslySetInnerHTML={{ __html: service.title }}></h3>
                         <div className="projects__modal-image">
                             <img src={service.image} alt="" />
                         </div>
