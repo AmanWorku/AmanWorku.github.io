@@ -57,7 +57,7 @@ const serviceData = [
     {
         id: 7,
         title: "Space Travelers' Hub",
-        description: "Space Travelers' Hub is a SPA which provides users to reserve specific rockets and dragons with a mission which is fetched from external APIs. It also displays the selected services in My Profile page.",
+        description: "Space Travelers' Hub is a SPA which provides users to reserve specific rockets and dragons with a mission which is fetched from external APIs. It also displays the selected projects in My Profile page.",
         live_demo: "https://space-travlers-hub.onrender.com/",
         source_link: "https://github.com/AmanWorku/Space-Travelers-Hub",
         image: calcImage,

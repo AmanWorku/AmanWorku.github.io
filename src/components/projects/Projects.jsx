@@ -1,32 +1,32 @@
 import React, { useState } from 'react';
-import "./services.css";
-import serviceData from './serviceData';
+import "./projects.css";
+import serviceData from './projectsData';
 
-const Services = () => {
+const Projects = () => {
   const [toggleState, setToggleState] = useState(0);
 
-  const renderedServices = serviceData.map((service) => (
-    <div className="services__content" key={service.id} 
+  const renderedprojects = serviceData.map((service) => (
+    <div className="projects__content" key={service.id} 
     // style={{ backgroundImage: `linear-gradient(0deg, rgba(210,210,210,0.5) 0%, rgba(190,190,190,1) 100%), url(${service.image})`}}
     >
       
       <div>
-      <div className="uil uil-web-grid services__icon">
-        <h3 className="services__title">{service.title}</h3>
+      <div className="uil uil-web-grid projects__icon">
+        <h3 className="projects__title">{service.title}</h3>
       </div>
-      <span className="services__button" onClick={() => toggleTab(service.id)}> View More 
-                <i className='uil uil-arrow-right services__button-icon'></i></span>
-                <div className={toggleState === service.id ? "services__modal active-modal" : "services__modal"}>
-                    <div className="services__modal-content">
-                        <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
-                        <h3 className="services__modal-title">{service.title}</h3>
-                        <div className="services__modal-image">
+      <span className="projects__button" onClick={() => toggleTab(service.id)}> View More 
+                <i className='uil uil-arrow-right projects__button-icon'></i></span>
+                <div className={toggleState === service.id ? "projects__modal active-modal" : "projects__modal"}>
+                    <div className="projects__modal-content">
+                        <i className="uil uil-times projects__modal-close" onClick={() => toggleTab(0)}></i>
+                        <h3 className="projects__modal-title">{service.title}</h3>
+                        <div className="projects__modal-image">
                             <img src={service.image} alt="" />
                         </div>
-                        <p className="services__modal-description">
+                        <p className="projects__modal-description">
                            {service.description}
                         </p>
-                        <div className="services__modal-buttons">
+                        <div className="projects__modal-buttons">
                         <a href={service.live_demo} className="button button-flex">
                             Live Demo  <i className="uil uil-link"></i>
                             </a>
@@ -49,16 +49,16 @@ const Services = () => {
   };
 
   return (
-    <section className="services section" id="projects">
+    <section className="projects section" id="projects">
      <h2 className="section__title">Projects</h2>
     <span className="section__subtitle">What I've Done</span>
 
-    <div className="services__container container grid">
-      {renderedServices}
+    <div className="projects__container container grid">
+      {renderedprojects}
     </div>
    </section>
   );
 };
 
-export default Services;
+export default Projects;
 
