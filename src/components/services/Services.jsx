@@ -6,7 +6,9 @@ const Services = () => {
   const [toggleState, setToggleState] = useState(0);
 
   const renderedServices = serviceData.map((service) => (
-    <div className="services__content" key={service.id} style={{ backgroundImage: `linear-gradient(0deg, rgba(210,210,210,0.5) 0%, rgba(190,190,190,1) 100%), url(${service.image})`}}>
+    <div className="services__content" key={service.id} 
+    // style={{ backgroundImage: `linear-gradient(0deg, rgba(210,210,210,0.5) 0%, rgba(190,190,190,1) 100%), url(${service.image})`}}
+    >
       
       <div>
       <div className="uil uil-web-grid services__icon">
@@ -47,9 +49,9 @@ const Services = () => {
   };
 
   return (
-    <section className="services section" id="services">
-     <h2 className="section__title">Services</h2>
-    <span className="section__subtitle">What I offer</span>
+    <section className="services section" id="projects">
+     <h2 className="section__title">Projects</h2>
+    <span className="section__subtitle">What I've Done</span>
 
     <div className="services__container container grid">
       {renderedServices}

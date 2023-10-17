@@ -8,7 +8,7 @@
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 6rem 0 2rem 2.5rem;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -154,6 +154,10 @@
 
     .services__modal-description {
         padding: 0;
+    }
+
+    .services__modal-buttons .button {
+        padding: 12px 20px;
     }
 }
 

@@ -1,4 +1,10 @@
 import calcImage from "./../../assets/projects/calculator.png";
+import bookImage from "./../../assets/projects/book.png";
+import concertImage from "./../../assets/projects/concert.png";
+import country from "./../../assets/projects/country 1.png";
+import country2 from "./../../assets/projects/country 2.png";
+// import calcImage from "./../../assets/projects/calculator.png";
+// import calcImage from "./../../assets/projects/calculator.png";
 
 const serviceData = [
     {
@@ -7,7 +13,7 @@ const serviceData = [
       description: "ConcertHub is a platform where music enthusiasts can discover upcoming concerts, book tickets, and explore their favorite artists. Experience the world of music like never before with ConcertHub! This is a late post of our final capstone project in the Microverse technical curriculum.",
       live_demo: "https://concert-react-front-end.vercel.app/",
       source_link: "https://github.com/AmanWorku/ConcertHub-Frontend",
-      image: calcImage,
+      image: concertImage,
     },
     {
       id: 2,
@@ -30,7 +36,7 @@ const serviceData = [
       description: "A simple bookstore app built with React and React that enables a user to add a book with an author name.",
       live_demo: "https://bookstore-by-aman.onrender.com/",
       source_link: "https://github.com/AmanWorku/Bookstore",
-      image: calcImage,
+      image: bookImage,
     },
     {
       id: 5,
