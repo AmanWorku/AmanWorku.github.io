@@ -3,8 +3,10 @@ import bookImage from "./../../assets/projects/book.png";
 import concertImage from "./../../assets/projects/concert.png";
 import country from "./../../assets/projects/country 1.png";
 import country2 from "./../../assets/projects/country 2.png";
-// import calcImage from "./../../assets/projects/calculator.png";
-// import calcImage from "./../../assets/projects/calculator.png";
+import budget1 from "./../../assets/projects/budget 1.png";
+import budget2 from "./../../assets/projects/budget 2.png";
+import PixelBros from "./../../assets/projects/pixelbros.png";
+import space from "./../../assets/projects/space.png";
 
 const projectData = [
     {
@@ -29,7 +31,7 @@ const projectData = [
       description: "World Gallery is a SPA which provides users to look into the list of countries that are in the world. They can also click on their preferred country and see the details about a country.",
       live_demo: "https://world-gallery.onrender.com/",
       source_link: "https://github.com/AmanWorku/World-Gallery",
-      image: calcImage,
+      image: country,
     },
       {id: 4,
       title: "Book Store",
@@ -52,7 +54,7 @@ const projectData = [
       description: "PixelBros is a capstone project made using HTML, CSS and JavaScript at the end of Module 2 during our study in Microverse. In this website, users can view all the retro game characters,and add likes/comments on their favourite ones.",
       live_demo: "https://indiecodermm.github.io/js-capstone/",
       source_link: "https://github.com/AmanWorku/JS-Capstone",
-      image: calcImage,
+      image: PixelBros,
     },
     {
         id: 7,
@@ -60,7 +62,7 @@ const projectData = [
         description: "Space Travelers' Hub is a SPA which provides users to reserve specific rockets and dragons with a mission which is fetched from external APIs. It also displays the selected projects in My Profile page.",
         live_demo: "https://space-travlers-hub.onrender.com/",
         source_link: "https://github.com/AmanWorku/Space-Travelers-Hub",
-        image: calcImage,
+        image: space,
       },
   ];
   
