@@ -1,12 +1,11 @@
 import calcImage from "./../../assets/projects/calculator.png";
 import bookImage from "./../../assets/projects/book.png";
 import concertImage from "./../../assets/projects/concert.png";
-import country from "./../../assets/projects/country 1.png";
-import country2 from "./../../assets/projects/country 2.png";
-import budget1 from "./../../assets/projects/budget 1.png";
-import budget2 from "./../../assets/projects/budget 2.png";
+import country from "./../../assets/projects/country.png";
+import budget from "./../../assets/projects/budget.png";
 import PixelBros from "./../../assets/projects/pixelbros.png";
 import space from "./../../assets/projects/space.png";
+import landing from "./../../assets/projects/landing.webp";
 
 const projectData = [
     {
@@ -23,7 +22,7 @@ const projectData = [
       description: "Budget Mate is a simple web application that helps users keep track of their personal finances and budgeting goals. The application allows users to create a budget and track their spending across different categories such as groceries, transportation, and entertainment.",
       live_demo: "https://concert-react-front-end.vercel.app/",
       source_link: "https://budget-mate-z4ax.onrender.com//",
-      image: calcImage,
+      image: budget,
     },
     {
       id: 3,
@@ -63,6 +62,14 @@ const projectData = [
         live_demo: "https://space-travlers-hub.onrender.com/",
         source_link: "https://github.com/AmanWorku/Space-Travelers-Hub",
         image: space,
+      },
+    {
+        id: 8,
+        title: "Landing Page",
+        description: "A musical teaching website created as a capstone project while finishing the first module in microverse. Built with HTML, CSS and JavaScript.",
+        live_demo: "https://amanworku.github.io/Module-1-Capstone-Project/",
+        source_link: "https://github.com/AmanWorku/Module-1-Capstone-Project",
+        image: landing,
       },
   ];
   
