@@ -1,18 +1,39 @@
 import React, { useState } from 'react';
 import "./services.css";
-import serviceData from './serviceData'; // Import the service data
+import serviceData from './serviceData';
 
 const Services = () => {
   const [toggleState, setToggleState] = useState(0);
 
-  // You can map through the serviceData array to render services dynamically
   const renderedServices = serviceData.map((service) => (
     <div className="services__content" key={service.id}>
       
       <div>
-      <h3 className="services__title">{service.title}</h3>
-      <p className="services__modal-description">{service.description}</p>
-     
+      <div className="uil uil-web-grid services__icon">
+        <h3 className="services__title">{service.title}</h3>
+      </div>
+      <span className="services__button" onClick={() => toggleTab(service.id)}> View More 
+                <i className='uil uil-arrow-right services__button-icon'></i></span>
+                <div className={toggleState === service.id ? "services__modal active-modal" : "services__modal"}>
+                    <div className="services__modal-content">
+                        <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
+                        <h3 className="services__modal-title">{service.title}</h3>
+                        <p className="services__modal-description">
+                           {service.description}
+                        </p>
+                        <ul className="services__modal-services grid">
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">I develop the user interface.</p>
+                            </li>
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Webpage development.</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
       </div>
     </div>
   ));
