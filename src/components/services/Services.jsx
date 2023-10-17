@@ -6,7 +6,7 @@ const Services = () => {
   const [toggleState, setToggleState] = useState(0);
 
   const renderedServices = serviceData.map((service) => (
-    <div className="services__content" key={service.id} style={{ backgroundImage: `url("${service.image}") !important`, backgroundSize: 'contain'}}>
+    <div className="services__content" key={service.id} style={{ backgroundImage: `url(${service.image})`, backgroundSize: 'contain'}}>
       
       <div>
       <div className="uil uil-web-grid services__icon">
