@@ -5,7 +5,7 @@ import projectData from './projectsData';
 const Projects = () => {
   const [toggleState, setToggleState] = useState(0);
 
-  const renderedprojects = projectData.map((service) => (
+  const renderedProjects = projectData.map((service) => (
     <div className="projects__content" key={service.id} 
     // style={{ backgroundImage: `linear-gradient(0deg, rgba(210,210,210,0.5) 0%, rgba(190,190,190,1) 100%), url(${service.image})`}}
     >
@@ -54,7 +54,7 @@ const Projects = () => {
     <span className="section__subtitle">What I've Done</span>
 
     <div className="projects__container container grid">
-      {renderedprojects}
+      {renderedProjects}
     </div>
    </section>
   );
