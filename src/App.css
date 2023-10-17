@@ -149,6 +149,20 @@ img {
   display: inline-flex;
   align-items: center;
 }
+
+.button-light {
+  background-color: var(--container-color);
+  color: var(--title-color);
+  border: 1px solid var(--title-color);
+}
+
+.button-light:hover {
+  background-color: var(--title-color);
+  color: var(--container-color);
+  cursor: pointer;
+  transition: 0.15s ease-in;
+}
+
 @media screen and (max-width: 992px) {
   .container {
     margin-inline: var(--mb-1-5);

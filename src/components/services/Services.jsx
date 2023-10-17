@@ -6,7 +6,7 @@ const Services = () => {
   const [toggleState, setToggleState] = useState(0);
 
   const renderedServices = serviceData.map((service) => (
-    <div className="services__content" key={service.id} style={{ backgroundImage: `url(${service.image})`, backgroundSize: 'contain'}}>
+    <div className="services__content" key={service.id} style={{ backgroundImage: `linear-gradient(0deg, rgba(64,64,64,0.5) 0%, rgba(164,164,164,1) 100%), url(${service.image})`}}>
       
       <div>
       <div className="uil uil-web-grid services__icon">
@@ -21,17 +21,14 @@ const Services = () => {
                         <p className="services__modal-description">
                            {service.description}
                         </p>
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
-                            </li>
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Webpage development.</p>
-                            </li>
-                        </ul>
-
+                        <div className="services__modal-buttons">
+                        <a href={service.live_demo} className="button button-flex">
+                            Live Demo
+                            </a>
+                        <a href={service.source_link} className="button button-light">
+                            Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
       </div>
