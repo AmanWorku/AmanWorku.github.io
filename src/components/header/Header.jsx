@@ -25,13 +25,18 @@ const Header = () => {
         function handleDarkModeToggle() {
             setDarkMode(!darkMode);
             }
+            
+            function toggleMenu() {
+                showMenu(!Toggle);
+                const toggleButton = document.getElementById("toggleButton");
+                toggleButton.classList.toggle("hide-toggle");
+                }
         
   return (
     <header className="header"> 
         <nav className="nav container">
             <a href="index.html" className='nav__logo'>Aman</a>
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
-            <button onClick={handleDarkModeToggle}>DarkMode</button>
                 <ul className="nav__list grid">
                     <li className="nav__link">
                         <a href="#home" onClick={() => setActiveNav('#home')} className={activeNav === '#home' ? "nav__link active-link" : "nav__link"}>
@@ -72,9 +77,12 @@ const Header = () => {
 
                 <i className='uil uil-times nav__close' onClick={()=> showMenu(!Toggle)}></i>
             </div>
-            <div className="nav__toggle" onClick={()=> showMenu(!Toggle)}>
+            <div id="toggleButton" className="nav__toggle" onClick={()=> showMenu(!Toggle)}>
                 <i className='uil uil-apps'></i>
             </div>
+            <input id="checkboxInput" type="checkbox" onClick={handleDarkModeToggle} />
+    <label class="toggleSwitch" for="checkboxInput">
+    </label>
         </nav>
     </header>
   )
