@@ -1,11 +1,11 @@
 :root {
-    --hue: 210; /* change hue to a blueish color */
-    --sat: 50%; /* decrease saturation to make colors less vibrant */
-    --title-color: hsl(var(--hue), var(--sat), 90%); /* change title color to a light blue */
-    --title-color-dark: hsl(var(--hue), var(--sat), 60%); /* change title color on hover to a darker blue */
-    --text-color: hsl(var(--hue), var(--sat), 70%); /* change text color to a light gray */
-    --body-color: hsl(var(--hue), var(--sat), 10%); /* change body color to a dark blue */
-    --container-color: hsl(var(--hue), var(--sat), 20%); /* change container color to a darker blue */
+    --hue: 255; 
+    --sat: 2%; 
+    --title-color: hsl(var(--hue), var(--sat), 90%); 
+    --title-color-dark: hsl(var(--hue), var(--sat), 60%); 
+    --text-color: hsl(var(--hue), var(--sat), 70%);
+    --body-color: hsl(var(--hue), var(--sat), 10%);
+    --container-color: hsl(var(--hue), var(--sat), 20%);
     }
     
     body {
@@ -40,7 +40,7 @@
     .dark-mode {
         --hue: 0;
         --sat: 0%;
-        --title-color: hsl(var(--hue), var(--sat), 20%);
+        --title-color: hsl(var(--hue), var(--sat), 10%);
         --title-color-dark: hsl(var(--hue), var(--sat), 0%);
         --text-color: hsl(var(--hue), var(--sat), 46%);
         --body-color: hsl(var(--hue), var(--sat), 98%);
