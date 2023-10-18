@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./header.css";
+import "./../../dark-mode.css"
 
 const Header = () => {
     window.addEventListener ("scroll", function(){
@@ -11,11 +12,26 @@ const Header = () => {
     const [Toggle, showMenu] = useState(false);
     const [activeNav, setActiveNav] = useState('#home');
     const [darkMode, setDarkMode] = useState(false);
+
+    useEffect(() => {
+        const body = document.querySelector('body');
+        if (darkMode) {
+        body.classList.add('dark-mode');
+        } else {
+        body.classList.remove('dark-mode');
+        }
+        }, [darkMode]);
+
+        function handleDarkModeToggle() {
+            setDarkMode(!darkMode);
+            }
+        
   return (
     <header className="header"> 
         <nav className="nav container">
             <a href="index.html" className='nav__logo'>Aman</a>
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+            <button onClick={handleDarkModeToggle}>DarkMode</button>
                 <ul className="nav__list grid">
                     <li className="nav__link">
                         <a href="#home" onClick={() => setActiveNav('#home')} className={activeNav === '#home' ? "nav__link active-link" : "nav__link"}>
