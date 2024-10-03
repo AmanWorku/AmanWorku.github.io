@@ -41,7 +41,7 @@
 
 .about__description {
     padding: 0 4rem 0 0;
-    margin: var(--mb-2-5);
+    margin-bottom: 2em;
 }
 
 @media screen and (max-width: 992px) {
