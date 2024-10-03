@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AmanPortfolio/static/css/main.8db6de61.css",
+    "main.js": "/AmanPortfolio/static/js/main.82696afa.js",
+    "static/media/ezraseminary.png": "/AmanPortfolio/static/media/ezraseminary.8033e0880c1f37d472f7.png",
+    "static/media/testimonial3.png": "/AmanPortfolio/static/media/testimonial3.c0ee305f985c506345e6.png",
+    "static/media/book.png": "/AmanPortfolio/static/media/book.c94ff6778f52ff3f4482.png",
+    "static/media/testimonial1.png": "/AmanPortfolio/static/media/testimonial1.c518e198a07af104d5fb.png",
+    "static/media/pixelbros.png": "/AmanPortfolio/static/media/pixelbros.c844183e25cee1f07771.png",
+    "static/media/concert.png": "/AmanPortfolio/static/media/concert.252ac3a28e5770cfbfff.png",
+    "static/media/testimonial2.png": "/AmanPortfolio/static/media/testimonial2.7192a4123686b4bce0a2.png",
+    "static/media/space.png": "/AmanPortfolio/static/media/space.51ba2b6d04658a036a1b.png",
+    "static/media/country.png": "/AmanPortfolio/static/media/country.bb13a7761445508b955b.png",
+    "static/media/budget.png": "/AmanPortfolio/static/media/budget.f1b41988f9b223159ee8.png",
+    "static/media/calculator.png": "/AmanPortfolio/static/media/calculator.2999f8e31cb894df6c93.png",
+    "static/media/profile3.png": "/AmanPortfolio/static/media/profile3.d006204b7bb9dd1d5c8f.png",
+    "static/media/Aman-CV.pdf": "/AmanPortfolio/static/media/Aman-CV.2344e12e2a1c3fd51be0.pdf",
+    "index.html": "/AmanPortfolio/index.html",
+    "main.8db6de61.css.map": "/AmanPortfolio/static/css/main.8db6de61.css.map",
+    "main.82696afa.js.map": "/AmanPortfolio/static/js/main.82696afa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8db6de61.css",
+    "static/js/main.82696afa.js"
+  ]
+}
